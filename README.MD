@@ -80,6 +80,11 @@ $ cd MECAT2
 $ make 
 $ cd ..
 ```
+If neither of these options work for you, consider using the pre-built Singularity containter on Shub:
+```bash
+singularity pull shub://marchoeppner/MECAT2:latest
+```
+
 After installation, all the executables are found in `${MECAT_PATH}/MECAT/Linux-amd64/bin`. The folder name `Linux-amd64` will vary in operating systems.
 
 * Step 3: Add relative pathes
